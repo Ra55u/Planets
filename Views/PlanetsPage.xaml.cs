@@ -6,4 +6,14 @@ public partial class PlanetsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	async void GridArea_Tapped(System.Object sender, System.EventArgs e)
+	{
+		
+	}
+
+    private void ApiPic_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }
