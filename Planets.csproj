@@ -53,6 +53,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\PlanetDetailsPage.xaml.cs">
+	    <DependentUpon>PlanetDetailsPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\PlanetDetailsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\PlanetsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

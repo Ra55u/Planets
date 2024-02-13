@@ -160,7 +160,7 @@ namespace Services
             return randomizedPlanets.Take(2).ToList();
         }
 
-        public static List<Planet> GetAllPlanet()
+        public static List<Planet> GetAllPlanets()
             => planets;
     }
 }
