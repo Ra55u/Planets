@@ -79,7 +79,7 @@
                 </Border.StrokeShape>
 
                 <Border.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="ApiPic_Clicked" />
+                    <TapGestureRecognizer Tapped="ProfilePic_Clicked" />
                 </Border.GestureRecognizers>
 
                 <Image 

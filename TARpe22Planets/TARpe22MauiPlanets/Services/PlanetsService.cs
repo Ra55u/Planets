@@ -182,6 +182,99 @@ namespace TARpe22MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
+
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "The Star of Dwarf Planets",
+                HeroImage = "pluto.png",
+                Description = "Discovered by Clyde Tombaugh in 1930, " +
+                "Pluto was long considered our solar system's ninth planet. " +
+                "But after other astronomers found similar intriguing worlds deeper in the distant Kuiper Belt " +
+                "– the IAU reclassified Pluto as a dwarf planet in 2006. ",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/e/ef/Pluto_in_True_Color_-_High-Res.jpg",
+                    "https://cdn.uanews.arizona.edu/s3fs-public/styles/uaqs_large/public/story-images/Pluto%20whole%20color.png?itok=ytlG1fwV",
+                    "https://www.eso.org/public/archives/images/screen/eso0908a.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "The largest object in the asteroid belt between Mars and Jupiter",
+                HeroImage = "ceres.png",
+                Description = "The only dwarf planet located in the inner solar system. " +
+                "It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. " +
+                "When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to be explored by a spacecraft.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://upload.wikimedia.org/wikipedia/commons/7/76/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29_%28cropped%29.jpg",
+                    "https://i.natgeofe.com/n/b4a4f4c3-269e-4f37-a94d-45d86cf0cb52/ceres_occatorcrater_4x3.jpg",
+                    "https://www.universetoday.com/wp-content/uploads/2015/06/Ceres-Pyramid-June-14-limb-580x514.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "A doughnut-shaped region of icy bodies beyond the orbit of Neptune",
+                HeroImage = "haumea.png",
+                Description = "Haumea is an oval-shaped dwarf planet that is roughly the same size as Pluto. " +
+                "It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, " +
+                "making this dwarf planet look like a football. " +
+                "Everything we know about Haumea is from observations with ground-based telescopes from around the world.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://cdn.britannica.com/66/137066-004-13F11781/rendering-Artist-moons-Haumea.jpg",
+                    "https://cdn.mos.cms.futurecdn.net/h5P8ZW8QJAscrMQ9r6euoc.jpg",
+                    "https://cdn.mos.cms.futurecdn.net/JMePZFEJNcVnNawYzrCv96.jpg"
+                }
+            },
+
+            new()
+            {
+                Name = "MakeMake",
+                Subtitle = "It takes about 305 Earth years for this planet to make one trip around the Sun",
+                HeroImage = "makemake.png",
+                Description = "Makemake holds an important place in the history of solar system studies because it was one of the objects – " +
+                "along with Eris – whose discovery prompted the International Astronomical Union to reconsider the definition of a planet, " +
+                "and to create the new group of dwarf planets.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2023/04/makemakemoon100mile-jpg.webp",
+                    "https://cdn.sci.news/images/2016/04/image_3819f-MK-2-Moon.jpg",
+                    "https://static.wikia.nocookie.net/terragenesis/images/9/96/Makemake.png/revision/latest?cb=20190720101841"
+                }
+            },
+
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "One of the largest known dwarf planets in our solar system",
+                HeroImage = "eris.png",
+                Description = "With a radius of about 722 miles (1,163 kilometers), Eris is about 1/5 the radius of Earth. " +
+                "Eris, like Pluto, is a little smaller than Earth's Moon. If the Earth were the size of a nickel, " +
+                "Eris would be about as big as a popcorn kernel. The dwarf planet is often so far from the Sun that its atmosphere collapses and freezes, " +
+                "falling to the surface as snow.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                    "https://www.astronomy.com/wp-content/uploads/sites/2/2023/03/dwarfplaneteris.jpg?fit=600%2C400",
+                    "https://www.universetoday.com/wp-content/uploads/2015/01/lilalarge-e1437242741964.jpeg",
+                    "https://kids.kiddle.co/images/thumb/3/33/2006-16-a-full-1-.jpg/300px-2006-16-a-full-1-.jpg"
+                }
+            },
     };
 
         public static List<Planet> GetFeaturedPlanets()
