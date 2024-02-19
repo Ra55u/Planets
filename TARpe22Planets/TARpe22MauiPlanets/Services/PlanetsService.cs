@@ -9,7 +9,7 @@ namespace TARpe22MauiPlanets.Services
         {
             new()
             {
-                Name = "Mercury",
+                Name = " Mercury",
                 Subtitle = "  The smallest planet",
                 HeroImage = "mercury.png",
                 Description = "Mercury is the smallest planet in the Solar " +
@@ -33,7 +33,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Venus",
+                Name = " Venus",
                 Subtitle = "  The pressure cooker",
                 HeroImage = "venus.png",
                 Description = "Venus is the second planet from the Sun. It is sometimes " +
@@ -57,7 +57,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Earth",
+                Name = " Earth",
                 Subtitle = "  The cradle of life",
                 HeroImage = "earth.png",
                 Description = "Earth is the third planet from the Sun and the " +
@@ -79,7 +79,7 @@ namespace TARpe22MauiPlanets.Services
                 }
             },
 
-                        new()
+            new()
             {
                 Name = " Mars",
                 Subtitle = "  The iron planet",
@@ -119,7 +119,7 @@ namespace TARpe22MauiPlanets.Services
                 }
             },
 
-                        new()
+            new()
             {
                 Name = " Saturn",
                 Subtitle = "  The ring planet",
@@ -185,7 +185,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Pluto",
+                Name = " Pluto",
                 Subtitle = "The Star of Dwarf Planets",
                 HeroImage = "pluto.png",
                 Description = "Discovered by Clyde Tombaugh in 1930, " +
@@ -204,7 +204,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Ceres",
+                Name = " Ceres",
                 Subtitle = "The largest object in the asteroid belt between Mars and Jupiter",
                 HeroImage = "ceres.png",
                 Description = "The only dwarf planet located in the inner solar system. " +
@@ -222,7 +222,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Haumea",
+                Name = " Haumea",
                 Subtitle = "A doughnut-shaped region of icy bodies beyond the orbit of Neptune",
                 HeroImage = "haumea.png",
                 Description = "Haumea is an oval-shaped dwarf planet that is roughly the same size as Pluto. " +
@@ -241,7 +241,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "MakeMake",
+                Name = " MakeMake",
                 Subtitle = "It takes about 305 Earth years for this planet to make one trip around the Sun",
                 HeroImage = "makemake.png",
                 Description = "Makemake holds an important place in the history of solar system studies because it was one of the objects – " +
@@ -259,7 +259,7 @@ namespace TARpe22MauiPlanets.Services
 
             new()
             {
-                Name = "Eris",
+                Name = " Eris",
                 Subtitle = "One of the largest known dwarf planets in our solar system",
                 HeroImage = "eris.png",
                 Description = "With a radius of about 722 miles (1,163 kilometers), Eris is about 1/5 the radius of Earth. " +
